@@ -18,3 +18,5 @@ public class ComissionBasedPartTime extends PartTime {
     public int calcEarning(){
 
         //Calculate the earnings
+        return (getTotalHoursEarning ())+((mComissionPerc*getTotalHoursEarning())/100);
+    }
