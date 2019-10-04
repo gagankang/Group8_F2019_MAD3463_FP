@@ -44,7 +44,15 @@ public abstract class PartTime extends Employee{
         System.out.println("HoursWorked "+mHoursWorked);
 
     }
-    
+
+    public  int getTotalHoursEarning ()
+    {
+        return mRate*mHoursWorked;
+    }
+
+
+}
+
 
 
 
