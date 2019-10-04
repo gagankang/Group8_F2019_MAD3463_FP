@@ -12,4 +12,46 @@ package com.lambton;
             this.mAge = mAge;
         }
     }
+        public  int calcBirthYear()
+        {
+            return 2018-mAge;
+        }
+        public int calcEarning()
+        {
+            return 1000;
+        }
+        public void getVehicle()
+        {
+            if(!hasVehicle)
+            {
+                System.out.println("Employee has no vehicle Registered.");
+            }
+            else
+            {
+                if(mVehicle!=null)
+                {
+                    mVehicle.printMyData();
+
+                }
+            }
+        }
+
+        public void  setEmployeeVehicle(Vehicle vehicle)
+        {
+            hasVehicle=true;
+            this.mVehicle=vehicle;
+        }
+
+        @Override
+        public void printMyData() {
+            System.out.println("\n");
+            System.out.println("Name: "+mName);
+            System.out.println("Year of Birth: "+calcBirthYear());
+            getVehicle();
+        }
+    }
+
+
+
+
 
