@@ -11,6 +11,8 @@ public class EmployeFactory
         {
             case Constants.TYPE_COMISSION_EMPLOYEE:
                 employee = new ComissionBasedPartTime(nName,mAge);
+                break;
+            case Constants.TYPE_FIXED_EMPLOYEE:
         }
     }
 }
