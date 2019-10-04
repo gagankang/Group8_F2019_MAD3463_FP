@@ -6,3 +6,4 @@ public class PayrollApplication {
         ((ComissionBasedPartTime) e1).setVehicle(1, "Bullet", "RJ-14-CD-2001");
         ((ComissionBasedPartTime) e1).setRates(10, 20, 10);
         System.out.println("\n");
+        Employee e2 = EmployeFactory.employeeType(Constants.TYPE_FIXED_EMPLOYEE, "Raj", 24);
