@@ -28,6 +28,11 @@ public abstract class PartTime extends Employee{
     public void setHoursWorked(int mHoursWorked){
         this.mHoursWorked=mHoursWorked;
     }
+    @Override
+    public void printMyData() {
+        System.out.println("\n");
+        super.printMyData();
+
 
 
 
