@@ -7,5 +7,12 @@ public class FixedBasedPartTime extends PartTime {
     public FixedBasedPartTime(String mName, int mAge) {
         super(mName, mAge);
     }
+
+    public void setRates(int nRate, int nHours, int mFixedAmount) {
+        this.setRate(nRate);
+        this.setHoursWorked(nHours);
+        this.mFixedAmount = mFixedAmount;
+
+    }
 }
 
