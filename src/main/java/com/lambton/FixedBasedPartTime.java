@@ -14,5 +14,9 @@ public class FixedBasedPartTime extends PartTime {
         this.mFixedAmount = mFixedAmount;
 
     }
+    public int calcEarning(){
+        return ((getRate()*getHoursWorked())+mFixedAmount);
+    }
+
 }
 
