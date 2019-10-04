@@ -2,10 +2,15 @@ package com.lambton;
 
 public class Intern extends Employee {
     private String mSchool;
-    //COnstructor
     public Intern(String mName, int mAge) {
         super(mName,mAge);
     }
+    public void setSchoolName(String mSchool){
+        //Set school name
+        this.mSchool=mSchool;
+    }
+    
+
 
    
 
