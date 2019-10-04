@@ -12,7 +12,8 @@ public class VehicleFactory
                 vehicle = new Motorcycle(mMake,mPlate);
                 break;
             case 2:
-                
+                vehicle = new Car(mMake,mPlate);
+                break;
         }
     }
 }
