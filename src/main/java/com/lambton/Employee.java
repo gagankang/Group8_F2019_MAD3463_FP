@@ -20,6 +20,13 @@ package com.lambton;
         {
             return 1000;
         }
+        public void getVehicle()
+        {
+            if(!hasVehicle)
+            {
+                System.out.println("Employee has no vehicle Registered.");
+            }
+
 
 
 
