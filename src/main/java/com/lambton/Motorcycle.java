@@ -6,7 +6,12 @@ package com.lambton;
             super(mMake, mPlate);
         }
 
+        @Override
+        public void printMyData() {
 
+            System.out.println("Employee has motorcycle");
+            super.printMyData();
+        }
     }
 
 
