@@ -12,4 +12,10 @@ public abstract class PartTime extends Employee{
         //this.mHoursWorked=mHoursWorked;
     }
 
+    public int getRate()
+    {
+        return mRate;
+    }
+
+
 
