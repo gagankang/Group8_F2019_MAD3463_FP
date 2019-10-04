@@ -25,4 +25,7 @@ public class ComissionBasedPartTime extends PartTime {
     {
         //Print the data here
         super.printMyData();
+        System.out.println("Commission: "+mComissionPerc+"%");
+        System.out.println("Earning "+calcEarning()+"("+mComissionPerc+"% of "+getTotalHoursEarning ()+")");
+    }
 
