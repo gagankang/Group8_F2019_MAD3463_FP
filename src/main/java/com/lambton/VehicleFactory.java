@@ -14,6 +14,8 @@ public class VehicleFactory
             case 2:
                 vehicle = new Car(mMake,mPlate);
                 break;
+            default:
+                
         }
     }
 }
