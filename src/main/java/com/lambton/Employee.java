@@ -46,8 +46,8 @@ package com.lambton;
         public void printMyData() {
             System.out.println("\n");
             System.out.println("Name: "+mName);
-
-
+            System.out.println("Year of Birth: "+calcBirthYear());
+            getVehicle();
         }
     }
 
