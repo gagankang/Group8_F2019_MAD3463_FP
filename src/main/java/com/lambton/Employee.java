@@ -36,6 +36,12 @@ package com.lambton;
             }
         }
 
+        public void  setEmployeeVehicle(Vehicle vehicle)
+        {
+            hasVehicle=true;
+            this.mVehicle=vehicle;
+        }
+
 
 
 
