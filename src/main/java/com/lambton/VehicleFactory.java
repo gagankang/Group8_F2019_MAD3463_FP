@@ -11,6 +11,8 @@ public class VehicleFactory
             case 1:
                 vehicle = new Motorcycle(mMake,mPlate);
                 break;
+            case 2:
+                
         }
     }
 }
