@@ -15,3 +15,6 @@ public class ComissionBasedPartTime extends PartTime {
         this.setHoursWorked(nHours);
         this.mComissionPerc=mCommission;
     }
+    public int calcEarning(){
+
+        //Calculate the earnings
