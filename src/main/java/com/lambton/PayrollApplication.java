@@ -14,3 +14,17 @@ public class PayrollApplication {
         ((FullTime) e3).setRates(2000, 400);
         System.out.println("\n");
         Employee e4 = EmployeFactory.employeeType(Constants.TYPE_INTERN_EMPLOYEE, "Mandeep Singh", 25);
+        e1.printMyData();
+        e2.printMyData();
+        e3.printMyData();
+        ((Intern) e4).setSchoolName("St Annes School");
+        e4.printMyData();
+        System.out.println("\n");
+        //show total earnings
+        System.out.println("Total Earning---" + (e1.calcEarning() + e2.calcEarning() + e3.calcEarning() + e4.calcEarning()));
+
+    }
+
+}
+
+
