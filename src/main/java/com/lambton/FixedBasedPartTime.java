@@ -14,9 +14,19 @@ public class FixedBasedPartTime extends PartTime {
         this.mFixedAmount = mFixedAmount;
 
     }
-    public int calcEarning(){
+    public int calcEarning()
+    {
         return ((getRate()*getHoursWorked())+mFixedAmount);
     }
+    @Override
+    public void printMyData()
+    {
+        super.printMyData();
+        System.out.println("fixed Amount: "+mFixedAmount);
+        System.out.println("Earning "+calcEarning()+"+(+" +getTotalHoursEarning ()+"+"+mFixedAmount+")");
+    }
+
+
 
 }
 
