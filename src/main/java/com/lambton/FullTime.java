@@ -8,5 +8,11 @@ public class FullTime extends Employee {
         super(mName, mAge);
 
     }
+    public void setRates(int mSalary,int mBonus){
+        
+        this.mSalary=mSalary;
+        this.mBonus=mBonus;
+    }
+
 }
 
