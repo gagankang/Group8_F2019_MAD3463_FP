@@ -6,11 +6,10 @@ package com.lambton;
         private boolean hasVehicle;
         private Vehicle mVehicle;
 
-        Employee(String mName, int mAge) {
-            //Constructor
+        Employee(String mName, int mAge)
+        {
             this.mName = mName;
             this.mAge = mAge;
         }
     }
 
-        
