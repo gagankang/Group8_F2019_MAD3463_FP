@@ -9,6 +9,8 @@ public class VehicleFactory
         switch (type)
         {
             case 1:
+                vehicle = new Motorcycle(mMake,mPlate);
+                break;
         }
     }
 }
