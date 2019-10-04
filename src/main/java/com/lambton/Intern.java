@@ -9,7 +9,12 @@ public class Intern extends Employee {
         //Set school name
         this.mSchool=mSchool;
     }
-    
+    @Override
+    public void printMyData()
+    {
+        //Print my data
+        super.printMyData();
+
 
 
    
