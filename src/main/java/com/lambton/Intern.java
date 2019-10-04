@@ -14,6 +14,12 @@ public class Intern extends Employee {
     {
         //Print my data
         super.printMyData();
+        System.out.println("School Name "+mSchool);
+        System.out.println("Earning "+calcEarning());
+
+    }
+}
+
 
 
 
