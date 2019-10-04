@@ -1,6 +1,6 @@
 package com.lambton;
 
-public class PayrollApplication
-{
-    
-}
+    public class PayrollApplication {
+
+
+    }
