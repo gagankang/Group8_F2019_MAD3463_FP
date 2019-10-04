@@ -7,6 +7,10 @@ public class EmployeFactory
     {
         //Return employee data
         Employee employee = null;
+        switch (type)
+        {
+            
+        }
     }
 }
 
