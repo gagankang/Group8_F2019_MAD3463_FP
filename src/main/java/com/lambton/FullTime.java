@@ -19,6 +19,17 @@ public class FullTime extends Employee {
     }
 
 
+    @Override
+    public void printMyData()
+    {
+        //print my data
+        super.printMyData();
+        System.out.println("Earning "+calcEarning());
+    }
+}
+
+
+
 
 }
 
