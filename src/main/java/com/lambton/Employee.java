@@ -42,6 +42,13 @@ package com.lambton;
             this.mVehicle=vehicle;
         }
 
+        @Override
+        public void printMyData() {
+            
+        }
+    }
+
+
 
 
 
