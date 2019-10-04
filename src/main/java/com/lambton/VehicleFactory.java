@@ -1,5 +1,24 @@
 package com.lambton;
 
-public class VehicleFactory {
+//vehicle factory class
+public class VehicleFactory
+{
+    public static Vehicle vehicleType(int type,String mMake,String mPlate)
+    {
+        Vehicle vehicle = null;
+        switch (type)
+        {
+            case 1:
+                vehicle = new Motorcycle(mMake,mPlate);
+                break;
+            case 2:
+                vehicle = new Car(mMake,mPlate);
+                break;
+            default:
+                // throw some exception
+                break;
 
+        }
+        return vehicle;
+    }
 }
