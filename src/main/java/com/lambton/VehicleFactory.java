@@ -19,5 +19,6 @@ public class VehicleFactory
                 break;
 
         }
+        return vehicle;
     }
 }
