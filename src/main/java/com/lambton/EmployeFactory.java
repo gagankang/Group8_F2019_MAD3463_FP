@@ -6,6 +6,7 @@ public class EmployeFactory
     public static Employee employeeType(int type,String nName,int mAge)
     {
         //Return employee data
+        Employee employee = null;
     }
 }
 
