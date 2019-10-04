@@ -5,6 +5,6 @@ public class VehicleFactory
 {
     public static Vehicle vehicleType(int type,String mMake,String mPlate)
     {
-
+        Vehicle vehicle = null;
     }
 }
