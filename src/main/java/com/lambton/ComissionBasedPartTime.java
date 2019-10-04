@@ -20,3 +20,5 @@ public class ComissionBasedPartTime extends PartTime {
         //Calculate the earnings
         return (getTotalHoursEarning ())+((mComissionPerc*getTotalHoursEarning())/100);
     }
+    @Override
+    public void printMyData()
