@@ -26,6 +26,15 @@ package com.lambton;
             {
                 System.out.println("Employee has no vehicle Registered.");
             }
+            else
+            {
+                if(mVehicle!=null)
+                {
+                    mVehicle.printMyData();
+
+                }
+            }
+        }
 
 
 
