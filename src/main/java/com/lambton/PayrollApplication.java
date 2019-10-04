@@ -13,3 +13,4 @@ public class PayrollApplication {
         Employee e3 = EmployeFactory.employeeType(Constants.TYPE_FULLTIME_EMPLOYEE, "Rajni", 23);
         ((FullTime) e3).setRates(2000, 400);
         System.out.println("\n");
+        Employee e4 = EmployeFactory.employeeType(Constants.TYPE_INTERN_EMPLOYEE, "Mandeep Singh", 25);
