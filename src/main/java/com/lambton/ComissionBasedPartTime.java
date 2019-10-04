@@ -7,3 +7,4 @@ public class ComissionBasedPartTime extends PartTime {
     public ComissionBasedPartTime(String mName, int mAge) {
         super(mName, mAge);
     }
+    public void setRates(int nRate,int nHours,int mCommission
