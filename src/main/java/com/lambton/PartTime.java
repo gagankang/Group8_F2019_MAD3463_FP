@@ -20,6 +20,37 @@ public abstract class PartTime extends Employee{
         return mHoursWorked;
     }
 
+    public void setRate(int mRate)
+    {
+        this.mRate= mRate;
+    }
+
+    public void setHoursWorked(int mHoursWorked){
+        this.mHoursWorked=mHoursWorked;
+    }
+    @Override
+    public void printMyData() {
+        System.out.println("\n");
+        super.printMyData();
+        if(mType==Constants.TYPE_COMISSION_EMPLOYEE)
+        {
+            System.out.println("Employee is Parttime/Commissioned");
+        }
+        else if(mType==Constants.TYPE_FIXED_EMPLOYEE)
+        {
+            System.out.println("Employee is Parttime/Fixed Amount");
+        }
+        System.out.println("Rate: "+mRate);
+        System.out.println("HoursWorked "+mHoursWorked);
+
+    }
+    
+
+
+
+
+
+
 
 
 
