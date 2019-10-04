@@ -10,3 +10,6 @@ public class PayrollApplication {
         ((FixedBasedPartTime) e2).setVehicle(2, "Swift", "RJ-19-Cb-0062");
         ((FixedBasedPartTime) e2).setRates(20, 20, 20);
         System.out.println("\n");
+        Employee e3 = EmployeFactory.employeeType(Constants.TYPE_FULLTIME_EMPLOYEE, "Rajni", 23);
+        ((FullTime) e3).setRates(2000, 400);
+        System.out.println("\n");
