@@ -1,7 +1,7 @@
 package com.lambton;
 
     public class Motorcycle extends Vehicle {
-
+        // constructor
         public Motorcycle(String mMake, String mPlate) {
             super(mMake, mPlate);
         }
