@@ -1,29 +1,32 @@
 package com.lambton;
 
+public abstract  class Vehicle implements IPrintable {
 
-    public abstract  class Vehicle {
+    private String mMake;
+    private String mPlate;
 
-        private String mMake;
-        private String mPlate;
+    public Vehicle(String mMake,String mPlate)
+    {
+        this.mMake=mMake;
+        this.mPlate=mPlate;
+    }
+    public String getMake()
+    {
+        return mMake;
+    }
 
-        public Vehicle(String mMake,String mPlate)
-        {
-            this.mMake=mMake;
-            this.mPlate=mPlate;
-        }
+    public String getmPlate(){
+        return mPlate;
+    }
+    @Override
+    public void printMyData() {
+
+        System.out.println("Make: " + mMake);
+        System.out.println("Plate: " + mPlate);
+
+    }
+}
 
 
-        public String getMake()
-        {
-            return mMake;
-        }
-
-        public String getmPlate(){
-            return mPlate;
-        }
-
-
-        }
-    
 
 
