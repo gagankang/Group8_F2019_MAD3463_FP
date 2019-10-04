@@ -16,6 +16,11 @@ package com.lambton;
         {
             return 2018-mAge;
         }
+        public int calcEarning()
+        {
+            return 1000;
+        }
+
 
 
         
