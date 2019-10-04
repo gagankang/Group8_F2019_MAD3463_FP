@@ -32,6 +32,11 @@ public abstract class PartTime extends Employee{
     public void printMyData() {
         System.out.println("\n");
         super.printMyData();
+        if(mType==Constants.TYPE_COMISSION_EMPLOYEE)
+        {
+            System.out.println("Employee is Parttime/Commissioned");
+        }
+
 
 
 
