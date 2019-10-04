@@ -9,10 +9,16 @@ public class FullTime extends Employee {
 
     }
     public void setRates(int mSalary,int mBonus){
-        
+
         this.mSalary=mSalary;
         this.mBonus=mBonus;
     }
+    public int calcEarning()
+    {
+        return(mSalary+mBonus);
+    }
+
+
 
 }
 
