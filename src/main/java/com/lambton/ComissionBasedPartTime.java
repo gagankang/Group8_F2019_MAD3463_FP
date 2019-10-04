@@ -22,3 +22,7 @@ public class ComissionBasedPartTime extends PartTime {
     }
     @Override
     public void printMyData()
+    {
+        //Print the data here
+        super.printMyData();
+
