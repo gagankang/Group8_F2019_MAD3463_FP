@@ -15,6 +15,7 @@ public class EmployeFactory
             case Constants.TYPE_FIXED_EMPLOYEE:
                 employee = new FixedBasedPartTime(nName,mAge);
                 break;
+            case Constants.TYPE_FULLTIME_EMPLOYEE:
         }
     }
 }
