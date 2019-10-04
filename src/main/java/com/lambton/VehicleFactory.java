@@ -15,7 +15,9 @@ public class VehicleFactory
                 vehicle = new Car(mMake,mPlate);
                 break;
             default:
-                
+                // throw some exception
+                break;
+
         }
     }
 }
