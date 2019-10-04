@@ -36,16 +36,6 @@ public abstract class PartTime extends Employee{
         {
             System.out.println("Employee is Parttime/Commissioned");
         }
-        else if(mType==Constants.TYPE_FIXED_EMPLOYEE)
-        {
-            System.out.println("Employee is Parttime/Fixed Amount");
-        }
-        System.out.println("Rate: "+mRate);
-        System.out.println("HoursWorked "+mHoursWorked);
-
-    }
-    
-
 
 
 
