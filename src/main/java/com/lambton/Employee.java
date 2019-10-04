@@ -12,5 +12,10 @@ package com.lambton;
             this.mAge = mAge;
         }
     }
+        public  int calcBirthYear()
+        {
+            return 2018-mAge;
+        }
+
 
         

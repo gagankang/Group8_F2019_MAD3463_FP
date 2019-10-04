@@ -8,7 +8,8 @@ public abstract class PartTime extends Employee{
     //COnstructor
     PartTime(String mName, int mAge ) {
         super(mName,mAge);
-        this.mRate=mRate;
-        this.mHoursWorked=mHoursWorked;
+       // this.mRate=mRate;
+        //this.mHoursWorked=mHoursWorked;
     }
+
 
