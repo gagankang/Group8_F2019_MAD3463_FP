@@ -17,6 +17,7 @@ public class EmployeFactory
                 break;
             case Constants.TYPE_FULLTIME_EMPLOYEE:
                 employee = new FullTime(nName,mAge);
+                break;
 
         }
     }
