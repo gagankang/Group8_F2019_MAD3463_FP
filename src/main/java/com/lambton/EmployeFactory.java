@@ -9,7 +9,8 @@ public class EmployeFactory
         Employee employee = null;
         switch (type)
         {
-            
+            case Constants.TYPE_COMISSION_EMPLOYEE:
+                employee = new ComissionBasedPartTime(nName,mAge);
         }
     }
 }
