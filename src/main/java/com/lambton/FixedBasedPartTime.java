@@ -26,7 +26,7 @@ public class FixedBasedPartTime extends PartTime {
         System.out.println("Earning " + calcEarning() + "+(+" + getTotalHoursEarning() + "+" + mFixedAmount + ")");
     }
 
-
+    //set the vehicle here
     public void setVehicle(int type, String mMake, String mPlate) {
         Vehicle mVehicle = VehicleFactory.vehicleType(type, mMake, mPlate);
         setEmployeeVehicle(mVehicle);
