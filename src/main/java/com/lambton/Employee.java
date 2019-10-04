@@ -44,7 +44,10 @@ package com.lambton;
 
         @Override
         public void printMyData() {
-            
+            System.out.println("\n");
+            System.out.println("Name: "+mName);
+
+
         }
     }
 
