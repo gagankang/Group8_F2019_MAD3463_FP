@@ -8,7 +8,7 @@ public class VehicleFactory
         Vehicle vehicle = null;
         switch (type)
         {
-            
+            case 1:
         }
     }
 }
