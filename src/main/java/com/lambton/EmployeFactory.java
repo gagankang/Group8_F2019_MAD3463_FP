@@ -10,6 +10,7 @@ public class EmployeFactory
         switch (type)
         {
             case Constants.TYPE_COMISSION_EMPLOYEE:
+                employee = new ComissionBasedPartTime(nName,mAge);
         }
     }
 }
