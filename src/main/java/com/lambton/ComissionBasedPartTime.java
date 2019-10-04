@@ -30,7 +30,8 @@ public class ComissionBasedPartTime extends PartTime {
     }
     public void setVehicle(int type, String mMake,String mPlate)
     {
-        
+        //Set vehicle in vehicle class
+        Vehicle mVehicle=VehicleFactory.vehicleType(1,mMake,mPlate);
     }
 }
 
