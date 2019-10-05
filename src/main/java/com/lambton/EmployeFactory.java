@@ -19,6 +19,12 @@ public class EmployeFactory
                 employee = new FullTime(nName,mAge);
                 break;
             case Constants.TYPE_INTERN_EMPLOYEE:
+                employee = new Intern(nName,mAge);
+                break;
+
+            default:
+                // throw some exception
+                break;
 
         }
     }
