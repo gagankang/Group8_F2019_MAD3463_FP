@@ -1,0 +1,13 @@
+
+
+https://explainjava.com/java-constants/
+
+https://bytes.com/topic/java/answers/879435-how-do-i-calculate-total-all-employees-pay
+
+www.thejavageek.com/2016/06/29/factory-method-implementation/
+
+https://javatutoring.com/commission-percentage-java-program/
+
+https://alvinalexander.com/java/java-factory-pattern-example
+
+https://bytes.com/topic/java/answers/885904-write-program-calculate-payroll-employee
