@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ExploreWorld Tours</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+      height: 80vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+    }
+
+    nav {
+      background: #0066cc;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Explore the World with Us</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>ExploreWorld Tours offers unforgettable travel experiences across the globe. From exotic beaches to mountain adventures, we have it all covered.</p>
+    </section>
+
+    <section id="destinations">
+      <h2>Popular Destinations</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Mountains">
+        <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" alt="City">
+        <img src="https://images.unsplash.com/photo-1549887534-97e2b7dba0d5" alt="Desert">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Forest">
+        <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b" alt="Lakeside">
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>We offer all-inclusive travel packages, guided tours, customized itineraries, and 24/7 customer support.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: hello@exploreworld.com</p>
+      <p>Phone: +1 (555) 123-4567</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ExploreWorld Tours. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
